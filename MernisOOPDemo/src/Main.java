@@ -12,7 +12,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        User user1 = new User(1, "Sefer Ceyhun", "Çiftçi", LocalDate.of(1999, 11, 9), "60181160092");
+        User user1 = new User(1, "Sefer Ceyhun", "Çiftçi", LocalDate.of(1999, 11, 9), "987654321");
 		
 		UserService userService = new UserManager(new MernisServiceAdapter());
 		userService.signupUser(user1);
